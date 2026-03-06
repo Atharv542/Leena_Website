@@ -82,18 +82,20 @@ const Navbar = () => {
             </button>
 
             <button
+              onClick={() => scrollToSection("about")}
+              className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-pink-500 hover:bg-pink-50 rounded-lg transition"
+            >
+              About
+            </button>
+
+            <button
               onClick={() => scrollToSection("services")}
               className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-pink-500 hover:bg-pink-50 rounded-lg transition"
             >
               Services
             </button>
 
-            <button
-              onClick={() => scrollToSection("about")}
-              className="px-3 py-2 text-sm font-medium text-gray-600 hover:text-pink-500 hover:bg-pink-50 rounded-lg transition"
-            >
-              About
-            </button>
+            
 
             <button
               onClick={() => scrollToSection("testimonials")}
