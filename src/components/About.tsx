@@ -51,16 +51,11 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-br from-pink-200 to-pink-300 rounded-3xl transform -rotate-6 opacity-20"></div>
               <div className="relative">
                 <img
-                  src="https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=600"
+                  src="About.png"
                   alt="Leena - Professional Life Coach"
                   className="w-full h-[600px] object-cover rounded-3xl shadow-2xl"
                 />
-                <div className="absolute top-6 left-6 bg-white/90 backdrop-blur-sm p-4 rounded-2xl shadow-lg">
-                  <div className="text-center">
-                    <div className="text-lg font-bold text-pink-600">Certified</div>
-                    <div className="text-sm text-gray-600">Life Coach</div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
