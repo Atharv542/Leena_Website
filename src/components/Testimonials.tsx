@@ -80,11 +80,7 @@ const Testimonials = () => {
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <button className="bg-gradient-to-r from-pink-500 to-pink-600 text-white px-8 py-4 rounded-full font-semibold hover:from-pink-600 hover:to-pink-700 transition-all duration-300 transform hover:scale-105 shadow-lg">
-            Share Your Story
-          </button>
-        </div>
+        
       </div>
     </section>
   );

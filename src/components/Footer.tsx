@@ -108,7 +108,7 @@ const Footer = () => {
                 <li>Spiritual Coaching</li>
                 <li>Relationship Coaching</li>
                 <li>Conscious Parenting</li>
-                <li>Free Consultation</li>
+                
               </ul>
 
             </div>
